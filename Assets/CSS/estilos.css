@@ -1,0 +1,167 @@
+body, aside, img, boton, h1, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E8EBE4;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100%;
+}
+
+.chat-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*margin-bottom: 5px;*/
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+
+}
+
+.iconos-perfil {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.1rem;
+    padding: 10px;
+}
+
+
+/*estilos para boton nuevo chat*/
+.boton-chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+
+}
+
+.boton {
+    background-color: #A491D2;
+    border: 0;
+    margin: 40px;
+    padding: 15px 50px;
+    color: #FFF;
+    font-size: 1.2em;
+    cursor: pointer;
+    /*transition: background 0.2s;*/
+}
+
+/*estilos para columna contactos*/
+.contactos {
+    background-color: #FFF;
+    width: 18rem;
+    height: 100vh;
+    border-right: 0.2rem solid  #ccc;
+    /*flex: 1;*/
+    display: flex;
+    flex-direction: column;
+    /*flex: 1 1 auto;*/
+    overflow-y:auto;
+    max-height:calc(100vh-140px);
+}
+
+/* personalizar barra de scroll*/
+.contactos::-webkit-scrollbar {
+    width: 6px;
+    background: #cac8c8ff;
+}
+
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    /*flex: 1 1 auto;
+    overflow-y:auto;
+    max-height:calc(100vh-140px);*/
+}
+
+/*estilos para cada item de chat*/
+.chat-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*margin-bottom: 5px;*/
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/*Estilos para la imagen*/
+.chat-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+    padding: 0px 0px 0px 20px;
+}
+
+/*Estilos para el texto*/
+.chat-tex {
+    flex-grow: 1;
+
+}
+
+.chat-tex h3 {
+    color: #4b4b4b;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.chat-tex p {
+    color: #555555;
+    font-size: 0.9rem;
+}
+
+/* Estilos para el container principal*/
+
+.main-principal {
+    flex: 1;
+    display: flex;
+    background-color: #E8EBE4;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.centrar-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 500px;
+    padding: 32px 24px;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;*/
+    margin-bottom: 24px;
+}
+
+.text-logo {
+    margin-top: 20px;
+    color: #4b4b4b;
+    font-size: 1.3rem; 
+    font-family: 'Open Sans', sans-serif;
+
+}
+.text-logo p {
+    font-size: 1rem;
+    /*text-align: center;*/
+}
